@@ -1,0 +1,22 @@
+.Button {
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px inset rgba(0,0,0,0.3);
+    background-color: #4ECE3D;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 180ms ease-in;
+  &:hover {
+    background-color: #40B730;
+  }
+  &--is-primary {
+    border: none;
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+  &--is-active {
+    background-color: #39A12B;
+  }
+}
